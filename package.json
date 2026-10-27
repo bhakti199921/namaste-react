@@ -2,6 +2,11 @@
   "name": "namaste-react",
   "version": "1.0.0",
   "description": "This is Namaste React by Akshay Saini",
+  "scripts":{
+    "start":"parcel index.html",
+    "build":"parcel build index.html",
+    "test":"jest"
+  },
   "keywords": [
     "react",
     "Namaste",
@@ -18,9 +23,7 @@
   "license": "ISC",
   "author": "bhakti",
   "type": "commonjs",
-  "scripts": {
-    "test": "jest"
-  },
+ 
   "devDependencies": {
     "parcel": "^2.16.4"
   },
